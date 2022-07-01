@@ -82,7 +82,7 @@ app.post('/api/personas', (request, response) => {
 
   if (!Personas.Nombre || !Personas.Apellido || !Personas.DNI) {
     return response.status(204).json({
-      error: 'posibles errores: La clase Persona le falta el dato de Nombre; La clase Persona le falta el datos de Apellido; La clase Persona le falta el dato de DNI '
+      error: 'posibles errores: La clase Persona le falta el dato de Nombre; La clase Persona le falta el dato de Apellido; La clase Persona le falta el dato de DNI '
     })
   }
 
